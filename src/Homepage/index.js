@@ -38,7 +38,7 @@ export default function Homepage() {
 
         <View style={styles.storyCirculo}>
           <Image
-            source={require("./assets/foto-perfil.jpg")}
+            source={require("./assets/foto-perfil.png")}
             style={styles.storyImage}
           />
           <Text style={styles.storyText}>Seu story</Text>
@@ -70,7 +70,7 @@ export default function Homepage() {
         >
           <View style={styles.storyCirculo}>
             <Image
-              source={require("./assets/jorgemateus.jpg")}
+              source={require("./assets/jorgemateus.png")}
               style={styles.storyImage}
             />
           </View>
@@ -87,12 +87,12 @@ export default function Homepage() {
         >
           <View style={styles.storyCirculo}>
             <Image
-              source={require("./assets/panificadora.jpg")}
+              source={require("./assets/panificadora.png")}
               style={styles.storyImage}
             />
           </View>
         </LinearGradient>
-        <Text style={styles.storyText}>panificadorapires</Text>
+        <Text style={styles.storyText}>panificadorabakery</Text>
         </View>
 
         <View alignItems={'center'}>
@@ -104,25 +104,25 @@ export default function Homepage() {
         >
           <View style={styles.storyCirculo}>
             <Image
-              source={require("./assets/panificadora.jpg")}
+              source={require("./assets/panificadora.png")}
               style={styles.storyImage}
             />
           </View>
         </LinearGradient>
-        <Text style={styles.storyText}>panificadorapires</Text>
+        <Text style={styles.storyText}>panificadorabakery</Text>
         </View>
 
       </ScrollView>
       <View style={styles.post}>
         <View style={styles.postHeader}>
           <Image
-            source={require("./assets/n4tatoo.jpg")}
+            source={require("./assets/n4tatoo.png")}
             style={styles.postProfileImage}
           />
           <Text style={styles.postUsername}>n4_tattoo</Text>
         </View>
         <Image
-          source={require("./assets/post-tatuagem.jpg")}
+          source={require("./assets/post-tatuagem.png")}
           style={styles.postImage}
         />
         <View style={styles.iconPost}>
@@ -148,9 +148,9 @@ export default function Homepage() {
         </View>
 
         <View style={styles.likePost}>
-          <Text>curtido por carol_neias e outras pessoas</Text>
+          <Text>curtido por laysa_camille e outras pessoas</Text>
           <Text style={styles.textBold}>
-            n4_tatoo Mais uma cliente satisfeita ✨
+            n4_tatoo Tatto perfeita e detalhada, como a cliente pediu ✨
           </Text>
         </View>
 

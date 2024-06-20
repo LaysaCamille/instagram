@@ -5,6 +5,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
+    logoText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#000',
+  },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
